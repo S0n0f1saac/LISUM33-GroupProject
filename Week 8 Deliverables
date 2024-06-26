@@ -10,16 +10,34 @@ Problem description:
 
 ABC is a pharmaceutical company keen on understanding persistency of a drug based on physician prescriptions for patients. To tackle this, ABC has engaged an analytics company to automate the identification of persistency. This analytics firm has tasked Team Data Minders with creating an automated solution to evaluate and enhance the persistency of a drug for ABC.
 
-Business Understanding:
+Data Understanding: 
 
-ABC Pharmaceutical is focused on optimizing drug persistency to enhance patient health outcomes and improve market competitiveness. Effective persistency is essential for reducing healthcare costs and ensuring treatments are effective, which also aids in regulatory compliance and strengthens the company's reputation. ABC has partnered with an analytics firm to develop a system that automates the monitoring of drug persistency, providing crucial insights to support strategic decisions and boost operational efficiency.
+What type of data you have got for analysis:
 
+•	Patient Information:
+o	Ptid: Patient ID
+o	Gender: Gender of the patient
+o	Race: Race of the patient
+o	Ethnicity: Ethnicity of the patient
+o	Region: Geographic region
+•	Medical Data:
+o	Persistency_Flag: Indicates whether the patient is persistent or non-persistent
+o	Age Bucket: Age range of the patient
+o	Ntm_Speciality: Specialty of the treating physician
+o	Ntm_Specialist_Flag: Indicates if the specialist is an NTM specialist
+o	Ntm_Speciality_Bucket: Bucketed specialty information
+o	Idn_Indicator: Indicator for IDN involvement
+o	Injectable_Experience_During_Rx: Experience with injectables during treatment
 
+What are the problems in the data (number of NA values, outliers , skewed etc):
 
-What type of data you have got for analysis
+Outliers:
+•	Summary statistics such as minimum, maximum, mean, and standard deviation show a potential presence of outliers in our data. Outliers will be further examined visually using box plots and histograms.
+Skewness:
+•	Notable skewness in columns like Dexa_Freq_During_Rx and Count_Of_Risks.
 
-What are the problems in the data (number of NA values, outliers , skewed etc)
+What approaches you are trying to apply on your data set to overcome problems like NA value, outlier etc and why?:
 
-What approaches you are trying to apply on your data set to overcome problems like NA value, outlier etc and why?
+We will approach skewness using log or square root transformations, and we will approach outliers  via capping in order to maintain data integrity. 
 
-Github Repo link
+Github Repo link:
