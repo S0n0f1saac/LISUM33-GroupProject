@@ -1,0 +1,25 @@
+Team Name: Data Minders
+
+Team Members:
+Jacob Farrington; jtsfarrington@gmail.com , USA, University of North Texas, Data Science
+Xiaoyan Zhang; xiaoyanhouston@gmail.com , USA, University of Texas at Dallas, Data Science
+Marina Tsvetkova; marinatsv07@gmail.com , Poland, N/A , Data Science 
+Pamela S. D. Martey; pmlmartey@gmail.com, USA, Clark Atlanta University, Data Science
+
+Problem description:
+
+ABC is a pharmaceutical company keen on understanding persistency of a drug based on physician prescriptions for patients. To tackle this, ABC has engaged an analytics company to automate the identification of persistency. This analytics firm has tasked Team Data Minders with creating an automated solution to evaluate and enhance the persistency of a drug for ABC.
+
+Business Understanding:
+
+ABC Pharmaceutical is focused on optimizing drug persistency to enhance patient health outcomes and improve market competitiveness. Effective persistency is essential for reducing healthcare costs and ensuring treatments are effective, which also aids in regulatory compliance and strengthens the company's reputation. ABC has partnered with an analytics firm to develop a system that automates the monitoring of drug persistency, providing crucial insights to support strategic decisions and boost operational efficiency.
+
+
+
+What type of data you have got for analysis
+
+What are the problems in the data (number of NA values, outliers , skewed etc)
+
+What approaches you are trying to apply on your data set to overcome problems like NA value, outlier etc and why?
+
+Github Repo link
