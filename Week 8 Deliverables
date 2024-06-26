@@ -12,6 +12,16 @@ ABC is a pharmaceutical company keen on understanding persistency of a drug base
 
 Data Understanding: 
 
+The healthcare dataset comprises 69 columns with data types including 'object' and 'int64'. The target variable, "Persistency_Flag," is binary.
+Most of the columns contain binary data labeled "Y" and "N." 
+Upon analysis, it was determined that only a few columns are numerical, while the rest are string data stored as 'object' type.
+
+Exploratory Data Analysis:
+
+No missing values ("N/A") were found in the dataset. Outliers identified in certain columns were removed, decreasing the dataset size from 3,424 to 2,956 entries.
+The dataset primarily consists of binary data, with entries marked as "Y" or "N."
+A correlation analysis using the phik matrix exposed multicollinearity among some columns, which will require attention during subsequent model training stages.
+
 What type of data you have got for analysis:
 
 •	Patient Information:
@@ -41,3 +51,20 @@ What approaches you are trying to apply on your data set to overcome problems li
 We will approach skewness using log or square root transformations, and we will approach outliers  via capping in order to maintain data integrity. 
 
 Github Repo link:
+
+
+ 
+V2.
+What type of data you have got for analysis?
+
+The dataset contains 69 columns, mainly with binary data labeled "Y" or "N," and data types include 'object' and 'int64'. The target variable, "Persistency_Flag," is binary.
+
+What are the problems in the data (number of NA values, outliers, skewed, etc)?
+
+Outliers: Outliers were found and removed from the dataset, specifically in columns such as 'dexa_freq_during_rx' and 'count_of_risks', reducing the dataset size from 3,424 to 2,956 entries.
+NA Values: There are no NA values in the dataset.
+
+What approaches are you trying to apply on your dataset to overcome problems like NA value, outlier, etc., and why?
+
+Outlier Management: Outliers in the columns 'dexa_freq_during_rx' and 'count_of_risks' were identified and removed to improve the reliability of the data for accurate analysis and modeling.
+Data Handling: With no NA values present, there was no need for strategies related to missing data.
