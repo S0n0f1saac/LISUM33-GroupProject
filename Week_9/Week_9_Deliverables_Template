@@ -76,11 +76,8 @@ data.
 
 Data cleansing and transformation done on the data.
 
-Try at least 2 techniques to clean the data ( for NA values : mean/median/mode/Model based approach to handle NA value/WOE and like this try different techniques to identify and handle outliers as well)
 
-Each member should code and review peers work. (Review comment should be present in the github repo)
-
-Each team member should work on different data cleansing approach.
+In the healthcare dataset, numerical columns were standardized using StandardScaler to normalize the data distribution, which is crucial for models sensitive to the scale of input features. Binary data represented as 'Y' and 'N' were converted to 0 and 1, and the target variable 'persistency_flag' was encoded from 'Non-Persistent'/'Persistent' to 0/1. Categorical columns were transformed using OneHotEncoder with the drop='first' option to prevent multicollinearity by creating binary columns for each category. Outliers in 'dexa_freq_during_rx' and 'count_of_risks' were removed based on their quantiles to eliminate extreme values that could skew the analysis. Duplicate entries were identified and removed to ensure data uniqueness. Risk-related columns were converted from 'Yes'/'No' to 1/0, and an aggregate risk score was calculated by summing these values, providing a summarized risk level for each record. The dataset was also grouped by various categories and analyzed to determine the counts of persistent and non-persistent cases per category, offering deeper insights into the data. This series of transformations enhances the dataset's integrity and usability for accurate modeling.
 
 
 Github Link: 
