@@ -79,5 +79,8 @@ In the healthcare dataset, numerical columns were standardized using StandardSca
 Final_Recommendation
 Based on the exploratory data analysis (EDA) results and the insights from the Phik matrix, it is planned to develop robust predictive models with special attention to addressing multicollinearity and class imbalance. Multicollinearity, identified using the Phik matrix, is intended to be mitigated through methods such as Principal Component Analysis (PCA) and regularization (Lasso and Ridge), which will help adjust coefficients and enhance model stability. To address class imbalance, techniques such as SMOTE will be applied to increase the representation of the minority class or adjust class weights algorithmically within the model. Algorithms suitable for binary classification, such as logistic regression, decision trees, and ensemble methods like random forests and gradient boosting machines, are planned due to their reduced sensitivity to multicollinearity and effectiveness in handling class imbalance. To fine-tune model parameters and assess their effectiveness, cross-validation and performance metrics such as precision, recall, and AUC-ROC are intended to be used. These measures will ensure that the predictive modeling efforts are based on sound statistical principles and best practices.
 
+EDA Presentation: 
+https://docs.google.com/presentation/d/1d6tukaI1notL6yQm5jVOCqzg_iWspj3d/edit?usp=sharing&ouid=112271621071985260100&rtpof=true&sd=true
+
 Github Link: 
 https://github.com/S0n0f1saac/LISUM33-GroupProject/Week_11
