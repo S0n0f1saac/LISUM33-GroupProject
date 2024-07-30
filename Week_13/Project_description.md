@@ -1,10 +1,10 @@
 Team Name: Data Minders 
  
 Team Members: 
-Jacob Farrington; jtsfarrington@gmail.com , USA, University of North Texas, Data Science 
-Xiaoyan Zhang; xiaoyanhouston@gmail.com , USA, University of Texas at Dallas, Data Science 
-Marina Tsvetkova; marinatsv07@gmail.com , Poland, N/A , Data Science  
-Pamela S. D. Martey; pmlmartey@gmail.com, USA, Clark Atlanta University, Data Science 
+Jacob Farrington; jtsfarrington@gmail.com , USA, University of North Texas, Data Science   
+Xiaoyan Zhang; xiaoyanhouston@gmail.com , USA, University of Texas at Dallas, Data Science   
+Marina Tsvetkova; marinatsv07@gmail.com , Poland, N/A , Data Science    
+Pamela S. D. Martey; pmlmartey@gmail.com, USA, Clark Atlanta University, Data Science   
  
 Problem description: 
  
